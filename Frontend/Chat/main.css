@@ -1,0 +1,47 @@
+.chatrooms-container{
+	float:left;
+	width:40%;
+}
+
+
+
+.room{
+	padding:5px 8px;
+	cursor:pointer;
+}
+
+.chat-container{
+	float:left;
+	width:60%
+}
+
+.chatwindow{
+	height:600px;
+	overflow-y:scroll;
+}
+
+.message:nth-child(2n) {
+    background-color: #1CA2EB;
+}
+
+
+body{
+	background-color:#0288D1;
+	color:#fff;
+}
+
+input{
+	padding:11px;
+	border:none;
+
+}
+
+button{
+	border:none;
+	border-bottom:2px solid #fff;
+	color:#fff;
+	background-color:#1CA2EB;
+	padding:10px 15px;
+	cursor:pointer;
+
+}
